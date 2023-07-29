@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: black;
+  padding: 0 20%;
+}
+.left-side {
+  flex: 50%;
+  color: white;
+  padding: 7em 3em;
+  font-family: "Edu SA Beginner", cursive;
+}
+.right-side {
+  flex: 50%;
+}
+.ratan {
+  height: 40vh;
+  margin-left: 10em;
+}
+.tribute-section {
+  margin: 15px 30%;
+}
+.tribute-section > h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.tribute-info {
+  font-family: "Rubik", sans-serif;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+  color: white;
+  padding-top: 5px;
+}
+hr {
+  margin: 5em auto;
+  width: 50%;
+  height: 2px;
+}
+header > h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1em auto 0.5em;
+}
